@@ -1,0 +1,12 @@
+Build.PL
+Changes
+lib/CGI/Session/ID/crypt_openssl.pm
+Makefile.PL
+MANIFEST
+META.yml
+README
+t/00-load.t
+t/boilerplate.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
