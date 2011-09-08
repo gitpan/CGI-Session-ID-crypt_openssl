@@ -3,11 +3,11 @@ NAME
     IDs based on Crypt::OpenSSL::Random
 
 VERSION
-    Version 1.00
+    Version 1.01
 
 SYNOPSIS
         use CGI::Session;
-        $session = new CGI::Session('id:crypt_openssl', undef);
+        $session = CGI::Session->new('id:crypt_openssl', undef);
 
 DESCRIPTION
     Use this module to generate hexadecimal IDs generated with

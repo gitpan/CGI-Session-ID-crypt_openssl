@@ -9,11 +9,11 @@ CGI::Session::ID::crypt_openssl - CGI::Session ID driver for generating IDs base
 
 =head1 VERSION
 
-Version 1.00
+Version 1.01
 
 =cut
 
-$CGI::Session::ID::crypt_openssl::VERSION = '1.00';
+$CGI::Session::ID::crypt_openssl::VERSION = '1.01';
 
 use CGI::Session::ErrorHandler;
 @CGI::Session::ID::crypt_openssl::ISA = qw/CGI::Session::ErrorHandler/;
@@ -21,7 +21,7 @@ use CGI::Session::ErrorHandler;
 =head1 SYNOPSIS
 
     use CGI::Session;
-    $session = new CGI::Session('id:crypt_openssl', undef);
+    $session = CGI::Session->new('id:crypt_openssl', undef);
 
 =cut
 
