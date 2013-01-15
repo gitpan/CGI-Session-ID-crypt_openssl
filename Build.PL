@@ -16,6 +16,11 @@ my $builder = Module::Build->new(
     add_to_cleanup      => [ 'CGI-Session-ID-crypt_openssl-*' ],
     create_makefile_pl  => 'traditional',
     create_readme       => 1,
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/bitbetrieb/CGI-Session-ID-crypt_openssl'
+        }
+    },
 );
 
 $builder->create_build_script();
